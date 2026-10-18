@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { api, type AssetSummary, type Controls as ControlsData, type Issue } from "../api";
 import { BreakTable } from "../breaks";
 import {
@@ -55,6 +56,14 @@ export function Controls({ asset, onChange }: { asset: AssetSummary; onChange: (
   return (
     <div className="flex flex-col gap-8">
       {error && <ErrorNote message={`Showing the last log loaded. ${error}`} />}
+      <p className="text-[13px] text-muted">
+        How freezes, authorisations, unfreezes and clawbacks are classified, and how an instruction is matched to an
+        action (same account, issued before, within 72 hours, clawback units equal), is explained in the{" "}
+        <Link to="/docs/controls" className="underline">
+          controls guide
+        </Link>
+        .
+      </p>
       <Figures
         items={[
           { label: "Control actions on chain", value: data.summary.controls },
@@ -171,7 +180,7 @@ export function Controls({ asset, onChange }: { asset: AssetSummary; onChange: (
         >
           <Field
             label="Instruction file"
-            hint="CSV with ref, type (authorize, freeze, unfreeze or clawback), account and issued_at. Optional: units (required for a clawback), approved_by, reason. An instruction covers an action taken within 72 hours after it."
+            hint="CSV with ref, type (authorize, freeze, unfreeze or clawback), account and issued_at. Optional: units (required for a clawback), approved_by, reason. An instruction matches at most one action: same account, issued before the action, within 72 hours, and for a clawback the units must be equal. See the controls guide for details."
           >
             <input ref={file} type="file" accept=".csv,text/csv" className={`${inputClass} py-1`} />
           </Field>
