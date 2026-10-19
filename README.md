@@ -1,1 +1,242 @@
-IyBDb25jb3JkCgpSZWNvbmNpbGlhdGlvbiBiZXR3ZWVuIHRva2VuaXplZCBzZWN1cml0aWVzIG9uIFN0ZWxsYXIgYW5kIHRoZSBvZmZpY2lhbCBib29rcyBrZXB0IGJ5IHRyYW5zZmVyCmFnZW50cywgY3VzdG9kaWFucyBhbmQgZnVuZCBhZG1pbmlzdHJhdG9ycy4KCldoZW4gYSBzZWN1cml0eSBsaXZlcyBib3RoIG9uLWNoYWluIGFuZCBpbiBhIHJlZ2lzdGVyLCBzb21lb25lIGhhcyB0byBwcm92ZSB0aGUgdHdvIGFncmVlLCBldmVyeQpkYXkuIERpdmlkZW5kcywgc3BsaXRzLCBmcmVlemVzIGFuZCBjbGF3YmFja3MgaGF2ZSB0byBsYW5kIG9uIGJvdGggc2lkZXMuIFRvZGF5IHRoYXQgd29yayBpcwptYW51YWwuIENvbmNvcmQgZG9lcyBpdCBmcm9tIGxlZGdlciBldmVudHMuCgoqKlN0YXR1czoqKiB3b3JraW5nLCBhbmQgcmVhZHkgdG8gcHV0IGluIGZyb250IG9mIHBlb3BsZS4gVGhlIGluZGV4ZXIsIHJlY29uY2lsZXIsCmNvcnBvcmF0ZS1hY3Rpb25zIGVuZ2luZSwgY29udHJvbHMgbG9nIGFuZCBhdWRpdCBleHBvcnQgcnVuIGVuZCB0byBlbmQgYmVoaW5kIHNpZ24taW4sIHdpdGggYQpwcml2YXRlIHdvcmtzcGFjZSBwZXIgb3JnYW5pc2F0aW9uLiBJdCBoYXMgYmVlbiBleGVyY2lzZWQgYWdhaW5zdCBTdGVsbGFyIG1haW5uZXQ6IHdhdGNoaW5nCkZyYW5rbGluIFRlbXBsZXRvbidzIEJFTkpJLCBDb25jb3JkJ3MgdW5pdCB0b3RhbCBtYXRjaGVkIEhvcml6b24ncyBvd24gZmlndXJlIHRvIHRoZSBsYXN0IGRlY2ltYWwsCmFuZCBhIHJlZ2lzdGVyIGJ1aWx0IGZyb20gdGhlIGNoYWluJ3MgaG9sZGluZ3MgcmVjb25jaWxlZCBjbGVhbiBhY3Jvc3MgYWxsIDEsMDA1IHBvc2l0aW9ucy4gTm8KY3VzdG9tZXIgaGFzIHVzZWQgaXQuIFRoZSBwcm9kdWN0IGJyaWVmIGFuZCBraWxsIGNyaXRlcmlhIGFyZSBpbiBbYEJSSUVGLm1kYF0oL4BCUklFRi5tZCkuCgojIyBSdW4gaXQKCk5lZWRzIE5vZGUgMjQrIGFuZCBwbnBtIDkrLiBOb3RoaW5nIGVsc2U6IHN0b3JhZ2UgaXMgU1FMaXRlIHRocm91Z2ggYG5vZGU6c3FsaXRlYC4KCmBgYHNoCnBucG0gaW5zdGFsbApwbnBtIGJ1aWxkCnBucG0gc3RhcnQgICAgICAgICAgICAjIEFQSSBhbmQgZGFzaGJvYXJkIG9uIGh0dHA6Ly8xMjcuMC4wLjE6NDQwMApgYGAKCk9wZW4gdGhlIGFkZHJlc3MsIGNyZWF0ZSBhIHdvcmtzcGFjZSwgYW5kIHdhdGNoIGFuIGFzc2V0LiBNYWlubmV0IGFuZCB0ZXN0bmV0IGFyZSBib3RoIHNlcnZlZDsKdGhlIHN3aXRjaCBpcyBhdCB0aGUgdG9wIGxlZnQuIEEgbmV3IHdvcmtzcGFjZSBpcyBlbXB0eS4gQ29uY29yZCBzaGlwcyBubyBzYW1wbGUgZGF0YTogdGhlIGNoYWluCnNpZGUgY29tZXMgZnJvbSB0aGUgbGVkZ2VyLCBhbmQgdGhlIHJlZ2lzdGVyIHNpZGUgaXMgdGhlIGZpbGUgeW91IHVwbG9hZC4KCmBwbnBtIHRlc3RgIHJ1bnMgdGhlIHVuaXQgYW5kIHNlcnZpY2UgdGVzdHMuIGBwbnBtIGRldmAgcnVucyB0aGUgQVBJIGFuZCB0aGUgZGFzaGJvYXJkIHdpdGggcmVsb2FkLgoKQ29uZmlndXJhdGlvbiBpcyBieSBlbnZpcm9ubWVudCB2YXJpYWJsZSwgb3IgYSBgLmVudmAgZmlsZSBiZXNpZGUgYHBhY2thZ2UuanNvbmA7IHNlZQpbYC5lbnYuZXhhbXBsZWBdKC4vLmVudi5leGFtcGxlKS4gV2l0aCBub3RoaW5nIHNldCwgbWFpbm5ldCB1c2VzIGZyZWUgcHVibGljIFJQQyBlbmRwb2ludHMsIHdoaWNoCnN1aXQgbGlnaHQgdXNlLiBQb2ludCBgQ09OQ09SRF9NQUlOTkVUX1JQQ19VUkxTYCBhdCBhIHByb3ZpZGVyIGZvciBhbnl0aGluZyBtb3JlLgoKIyMgQWNjb3VudHMgYW5kIHdvcmtzcGFjZXMKCi0gQSAqKndvcmtzcGFjZSoqIGhvbGRzIHRoZSBhc3NldHMgYW4gb3JnYW5pc2F0aW9uIHdhdGNoZXMgYW5kIHRoZSBib29rcyBpdCB1cGxvYWRzLiBFYWNoIG9uZSBpcwogIGEgU1FMaXRlIGZpbGUgb2YgaXRzIG93biB1bmRlciBgZGF0YS9vcmdzL2AsIHNvIG5vdGhpbmcgYSB3b3Jrc3BhY2Ugc3RvcmVzIGNhbiBiZSByZWFjaGVkIGZyb20KICBhbm90aGVyLiBBY2NvdW50cywgbWVtYmVyc2hpcHMgYW5kIHNlc3Npb25zIGxpdmUgaW4gYGRhdGEvY29udHJvbC5kYmAuCi0gUGVvcGxlIHNpZ24gaW4gd2l0aCAqKmVtYWlsIGFuZCBwYXNzd29yZCoqLCBvciB3aXRoICoqR29vZ2xlKiogd2hlbgogIGBDT05DT1JEX0dPT0dMRV9DTElFTlRfSURgIGFuZCBgQ09OQ09SRF9HT09HTEVfQ0xJRU5UX1NFQ1JFVGAgYXJlIHNldC4gQ29uY29yZCBzZW5kcyBubyBlbWFpbDoKICBhbiBvd25lciBjcmVhdGVzIGFuIGludml0YXRpb24gbGluayBhbmQgcGFzc2VzIGl0IG9uLCBhbmQgYSBmb3Jnb3R0ZW4gcGFzc3dvcmQgaXMgcmVzZXQgd2l0aCBhCiAgbGluayBmcm9tIGBwbnBtIGNvbmNvcmQgcmVzZXQtbGluayBFTUFJTGAuCi0gKipPd25lcnMqKiBpbnZpdGUgYW5kIHJlbW92ZSBwZW9wbGUsIHN0b3Agd2F0Y2hpbmcgYXNzZXRzIGFuZCBjYW4gZGVsZXRlIHRoZSB3b3Jrc3BhY2UuCiAgKipNZW1iZXJzKiogZG8gZXZlcnl0aGluZyBlbHNlLiBXaG9ldmVyIHNpZ25zIG9mZiBhIGJyZWFrIGlzIHJlY29yZGVkIGZyb20gdGhlaXIgc2Vzc2lvbi4KLSBgQ09OQ09SRF9TSUdOVVA9b3BlbmAgbGV0cyBhbnlvbmUgY3JlYXRlIGEgd29ya3NwYWNlLiBgQ09OQ09SRF9TSUdOVVA9Y29kZWAgcmVxdWlyZXMgYSBjb2RlCiAgZnJvbSBgcG5wbSBjb25jb3JkIHNpZ251cC1jb2RlYC4KCiMjIENvbW1hbmQgbGluZQoKRXZlcnl0aGluZyBvbiB0aGUgZGFzaGJvYXJkIGV4Y2VwdCBzaWduLW9mZiBhbmQgdGVhbSBtYW5hZ2VtZW50IGlzIGFsc28gb24gdGhlIGNvbW1hbmQgbGluZS4gSXQKd29ya3Mgb24gdGhlIHNhbWUgZGF0YSBkaXJlY3RvcnkgYXMgdGhlIHNlcnZlciwgYW5kIG1heSBydW4gd2hpbGUgdGhlIHNlcnZlciBkb2VzLgoKYGBgc2gKcG5wbSBjb25jb3JkIG9yZ3MKZXhwb3J0IENPTkNPUkRfT1JHPSJIYXJib3VybGluZSBUcmFuc2ZlciIgICAgICMgb3IgcGFzcyAtLW9yZyB0byBlYWNoIGNvbW1hbmQKcG5wbSBjb25jb3JkIHdhdGNoIEZVTkc6R0lTU1VFUi4uLiAtLW5hbWUgIkV4YW1wbGUgRnVuZCIgLS1pZ25vcmUgR1RSRUFTVVJZLi4uCnBucG0gY29uY29yZCByZWdpc3RlciBGVU5EIC4vcmVnaXN0ZXIuY3N2IC0tYXMtb2YgMjAyNi0xMC0wNlQyMTowMDowMFoKcG5wbSBjb25jb3JkIGpvdXJuYWwgRlVORCAuL2pvdXJuYWwuY3N2CnBucG0gY29uY29yZCBpbnN0cnVjdGlvbnMgRlVORCAuL2luc3RydWN0aW9ucy5jc3YKcG5wbSBjb25jb3JkIGFjdGlvbiBGVU5EIGRpdmlkZW5kIC0tcmVjb3JkIDIwMjYtMTAtMDFUMjE6MDA6MDBaIC0tcmF0ZSAwLjA1IC0tcGF5LWFzc2V0IFVTREMgLS1wYXllciBHQUdFTlQuLi4KcG5wbSBjb25jb3JkIGFjdGlvbiBGVU5EIHNwbGl0IC0tcmVjb3JkIDIwMjYtMTAtMDFUMjE6MDA6MDBaIC0tcmF0aW8gMjoxCnBucG0gY29uY29yZCBjb250cm9scyBGVU5ECnBucG0gY29uY29yZCBleHBvcnQgRlVORCAtLW91dCBhdWRpdC5qc29uCnBucG0gY29uY29yZCBiYWNrdXAgLi9iYWNrdXAtMjAyNi0xMC0wOApwbnBtIGNvbmNvcmQgLS1oZWxwCmBgYAoKIyMgRGVwbG95aW5nCgpUaGUgW2B Eb2NrZXJmaWxlYF0oL4BEb2NrZXJmaWxlKSBidWlsZHMgb25lIGltYWdlIHRoYXQgc2VydmVzIHRoZSBBUEkgYW5kIHRoZSBkYXNoYm9hcmQuIEdpdmUgaXQKYSB2b2x1bWUgYXQgYC9kYXRhYCwgcHV0IFRMUyBpbiBmcm9udCwgYW5kIHNldCBgQ09OQ09SRF9QVUJMSUNfVVJMYCB0byB0aGUgaHR0cHMgYWRkcmVzcyBwZW9wbGUKb3Blbi4KCmBgYHNoCmRvY2tlciBidWlsZCAtdCBjb25jb3JkIC4KZG9ja2VyIHJ1biAtcCA0NDAwOjQ0MDAgLXYgY29uY29yZC1kYXRhOi9kYXRhIC1lIENPTkNPUkRfUFVCTElDX1VSTD1odHRwczovL2NvbmNvcmQuZXhhbXBsZS5jb20gY29uY29yZApgYGAKCkNvbmNvcmQgaXMgYSBzaW5nbGUgcHJvY2VzcyB3aXRoIGEgYmFja2dyb3VuZCBpbmRleGVyIGFuZCBTUUxpdGUgZmlsZXMsIHNvIGl0IG5lZWRzIG9uZQphbHdheXMtb24gaW5zdGFuY2Ugd2l0aCBhIGxvY2FsIGRpc2suIEl0IGRvZXMgbm90IGZpdCBzZXJ2ZXJsZXNzIGhvc3RzLgoKW2ByZW5kZXIueWFtbGBdKC4vcmVuZGVyLnlhbWwpIGRlcGxveXMgaXQgdG8gUmVuZGVyJ3MgKipmcmVlKiogcGxhbiBmb3IgYSBwcmV2aWV3LiBUaGF0IHBsYW4gaGFzCm5vIHBlcnNpc3RlbnQgZGlzazogZXZlcnkgYWNjb3VudCwgdXBsb2FkIGFuZCBzaWduLW9mZiBpcyBlcmFzZWQgd2hlbiB0aGUgc2VydmljZSByZXN0YXJ0cyBvcgpzcGlucyBkb3duIGFmdGVyIGZpZnRlZW4gaWRsZSBtaW51dGVzLiBgQ09OQ09SRF9FUEhFTUVSQUw9MWAgbWFrZXMgdGhlIGRhc2hib2FyZCBzYXkgc28gb24gZXZlcnkKcGFnZS4gRm9yIGFueXRoaW5nIHBlb3BsZSBzaG91bGQgY29tZSBiYWNrIHRvLCB1c2UgYSBwYWlkIGluc3RhbmNlIHdpdGggYSBkaXNrIGF0IGAvZGF0YWAgKG9yCkZseS5pbywgb3IgYSBWUFMpIGFuZCByZW1vdmUgdGhhdCB2YXJpYWJsZS4KCiMjIExheW91dAoKfCBQYXRoIHwgV2hhdCBpdCBpcyB8CnwtLS18LS0tfAp8IGBwYWNrYWdlcy9jb3JlYCB8IFRoZSBhY2NvdW50aW5nLCB3aXRoIG5vIEkvTzogaG9sZGluZ3MgcmVwbGF5LCBwb3NpdGlvbiBhbmQgbW92ZW1lbnQgcmVjb25jaWxpYXRpb24sIGVudGl0bGVtZW50cywgY29udHJvbHMgbWF0Y2hpbmcgfAp8IGBzZXJ2aWNlcy9hcGlgIHwgUlBDIGluZGV4ZXIsIFNRTGl0ZSBzdG9yZXMsIGFjY291bnRzIGFuZCB3b3Jrc3BhY2VzLCBIVFRQIEFQSSwgQ0xJIHwKfCBgYXBwcy93ZWJgIHwgRGFzaGJvYXJkOiBzaWduLWluLCBicmVha3MgYW5kIHNpZ24tb2ZmLCBob2xkaW5ncywgY29ycG9yYXRlIGFjdGlvbnMsIGNvbnRyb2xzIGxvZywgYXVkaXQgZXhwb3J0LCB0ZWFtIHwKCiMjIElucHV0IGZpbGVzCgpBbGwgQ1NWIHdpdGggYSBoZWFkZXIgcm93LiBBbW91bnRzIGFyZSBkZWNpbWFscyBpbiB3aG9sZSB1bml0czsgbW9yZSBwcmVjaXNpb24gdGhhbiB0aGUgYXNzZXQKY2FycmllcyBpcyByZWplY3RlZCwgbm90IHJvdW5kZWQuIFJvd3MgdGhhdCBjYW5ub3QgYmUgcmVhZCBhcmUgbGlzdGVkIHdpdGggdGhlaXIgbGluZSBudW1iZXIgYW5kCnRoZSByZWFzb24sIGFuZCB0aGUgcmVzdCBvZiB0aGUgZmlsZSBpcyBsb2FkZWQuIEVhY2ggaW1wb3J0IGZvcm0gb2ZmZXJzIGEgYmxhbmsgdGVtcGxhdGUuCgp8IEZpbGUgfCBDb2x1bW5zIHwKfC0tLXwtLS18CnwgUmVnaXN0ZXIgfCBgaG9sZGVyX2lkYCwgYHVuaXRzYCwgYW5kIG9wdGlvbmFsbHkgYGhvbGRlcl9uYW1lYCwgYGFjY291bnRgLCBgc3RhdHVzYCAoYGFjdGl2ZWAgb3IgYGZyb3plbmApLiBTZXZlcmFsIGhvbGRlcnMgbWF5IHNoYXJlIG9uZSBgYWNjb3VudGAgKG9tbmlidXMpLiB8CnwgSm91cm5hbCB8IGByZWZgLCBgZGF0ZWAsIGB0eXBlYCAoYGlzc3VlYCwgYHRyYW5zZmVyYCwgYHJlZGVlbWAsIGBjbGF3YmFja2ApLCBgdW5pdHNgLCBhbmQgb3B0aW9uYWxseSBgZnJvbV9hY2NvdW50YCwgYHRvX2FjY291bnRgLCBgdHhfaGFzaGAgfAp8IEluc3RydWN0aW9ucyB8IGByZWZgLCBgdHlwZWAgKGBhdXRob3JpemVgLCBgZnJlZXplYCwgYHVuZnJlZXplYCwgYGNsYXdiYWNrYCksIGBhY2NvdW50YCwgYGlzc3VlZF9hdGAsIGFuZCBvcHRpb25hbGx5IGB1bml0c2AgKHJlcXVpcmVkIGZvciBhIGNsYXdiYWNrKSwgYGFwcHJvdmVkX2J5YCwgYHJlYXNvbmAgfAoKIyMgV2hhdCBpdCBmbGFncwoKLSBgUG9zaXRpb25zOmAgcXVhbnRpdHkgbWlzbWF0Y2gsIGhvbGRlciBvbiBjaGFpbiBidXQgbm90IG9uIHRoZSByZWdpc3RlciwgaG9sZGVyIG9uIHRoZQogIHJlZ2lzdGVyIGJ1dCBub3Qgb24gY2hhaW4sIHJlZ2lzdGVyIGhvbGRlciB3aXRoIG5vIGFkZHJlc3MsIGZyb3plbi9hY3RpdmUgZGlzYWdyZWVtZW50LCB0b3RhbAogIHN1cHBseSBtaXNtYXRjaC4KLSBgTW92ZW1lbnRzYCAod2hlbiBhIGpvdXJuYWwgaXMgbG9hZGVkKTogb24tY2hhaW4gbW92ZW1lbnQgbWlzc2luZyBmcm9tIHRoZSBqb3VybmFsLCBqb3VybmFsCiAgZW50cnkgd2l0aCBubyBsZWRnZXIgZXZlbnQsIGVudHJ5IHdob3NlIGNpdGVkIHRyYW5zYWN0aW9uIG1vdmVkIGEgZGlmZmVyZW50IGFtb3VudC4KLSBgQ29ycG9yYXRlIGFjdGlvbnM6YCBwZXIgaG9sZGVyLCBlbnRpdGxlbWVudCBhdCB0aGUgcmVjb3JkIHRpbWUgYWdhaW5zdCB3aGF0IHRoZSBsZWRnZXIKICBzaG93ZWQgaW4gdGhlIGV4ZWN1dGlvbiB3aW5kb3c6IG1pc3NpbmcsIHNob3J0LCBleGNlc3MsIG9yIHBhaWQgdG8gc29tZW9uZSBub3QgZW50aXRsZWQuIEFuCiAgYWN0aW9uIHJlY29yZGVkIGFoZWFkIG9mIGl0cyByZWNvcmQgdGltZSBpcyByZWNvbmNpbGVkIGJ5IGl0c2VsZiBvbmNlIHRoZSBjaGFpbiBwYXNzZXMgaXQuCi0gYENvbnRyb2xzOmAgYSBmcmVlemUsIGF1dGhvcmlzYXRpb24gb3IgY2xhd2JhY2sgd2l0aCBubyBpbnN0cnVjdGlvbiBpc3N1ZWQgaW4gdGhlIDcyIGhvdXJzCiAgYmVmb3JlIGl0LCBhbmQgYW4gaW5zdHJ1Y3Rpb24gdGhhdCB3YXMgbmV2ZXIgZXhlY3V0ZWQuCgpBIEJyZWFrIGNhbiBiZSBhY2tub3dsZWRnZWQgb3IgcmVzb2x2ZWQgd2l0aCBhIG5vdGUuIFRoZSBzaWduLW9mZiBob2xkcyBvbmx5IHdoaWxlIHRoZSBmaWd1cmVzIGl0CndhcyB3cml0dGVuIGFnYWluc3QgYXJlIHVuY2hhbmdlZDsgaWYgdGhlIGJyZWFrIG1vdmVzLCBpdCByZW9wZW5zLgoKQSByZWNvbmNpbGlhdGlvbiBydW5zIHdoZW4gYSByZWdpc3RlciBpcyBpbXBvcnRlZCBhbmQgd2hlbmV2ZXIgc29tZW9uZSByZS1ydW5zIGl0LiBOb3RoaW5nCnJlY29uY2lsZXMgb24gYSB0aW1lcjogYSBuZXcgZGF5J3MgY29tcGFyaXNvbiBuZWVkcyB0aGF0IGRheSdzIHJlZ2lzdGVyLgoKIyMgTGltaXRzCgotICoqSGlzdG9yeS4qKiBTdGVsbGFyIFJQQyBrZWVwcyBhYm91dCBzZXZlbiBkYXlzIG9mIGV2ZW50cy4gQSBjbGFzc2ljIGFzc2V0IGlzIHRoZXJlZm9yZQogIHdhdGNoZWQgZnJvbSBvcGVuaW5nIGJhbGFuY2VzOiBldmVyeSB0cnVzdGxpbmUncyBiYWxhbmNlIGZyb20gSG9yaXpvbiwgdGhlbiBldmVudHMgZnJvbSB0aGF0CiAgbGVkZ2VyIG9uLiBIb3Jpem9uIGRvZXMgbm90IGxpc3QgYmFsYW5jZXMgaGVsZCBieSBsaXF1aWRpdHkgcG9vbHMsIGNsYWltYWJsZSBiYWxhbmNlcyBvcgogIGNvbnRyYWN0cywgc28gb3BlbmluZyBiYWxhbmNlcyB1bmRlcnN0YXRlIHN1cHBseSBieSB3aGF0ZXZlciB0aG9zZSBob2xkLiBIb2xkaW5ncyBiZWZvcmUgdGhlCiAgb3BlbmluZyBiYWxhbmNlcyBjYW5ub3QgYmUgcXVlcmllZC4KLSBgQ29udHJhY3QgdG9rZW5zLmAgQSBTRVAtNDEgdG9rZW4gdGhhdCBpcyBub3QgdGhlIGNvbnRyYWN0IG9mIGEgY2xhc3NpYyBhc3NldCBoYXMgbm8gb3BlbmluZwogIGJhbGFuY2VzIHRvIHJlYWQsIHNvIGl0cyBob2xkaW5ncyBjb3VudCBvbmx5IG1vdmVtZW50cyBmcm9tIHRoZSBvbGRlc3QgbGVkZ2VyIHRoZSBSUEUga2VlcHMuCiAgVGhlIGRhc2hib2FyZCBzYXlzIHNvIG9uIGV2ZXJ5IHBhZ2Ugb2Ygc3VjaCBhbiBhc3NldC4gVG9rZW5zIHRoYXQgZG8gbm90IGVtaXQgdGhlIHN0YW5kYXJkCiAgYHNldF9hdXRob3JpemVkYCBhbmQgYGNsYXdiYWNrYCBldmVudHMgd2lsbCBzaG93IGFuIGVtcHR5IGNvbnRyb2xzIGxvZy4KLSBgR2Fwcy5gIElmIHRoZSBpbmRleGVyIGlzIGRvd24gZm9yIGxvbmdlciB0aGFuIFJQQyByZXRlbnRpb24sIHRoZSBldmVudHMgaW4gYmV0d2VlbiBhcmUKICBsb3N0LiBDb25jb3JkIGRldGVjdHMgdGhpcywgc3RvcHMgaW5kZXhpbmcgdGhlIGFzc2V0IGFuZCBzYXlzIHdoeTsgKipSZWJ1aWxkIGhpc3RvcnkqKiBpbiB0aGUKICBhc3NldCdzIHNldHRpbmdzIHN0YXJ0cyBpdCBhZ2FpbiBmcm9tIGZyZXNoIG9wZW5pbmcgYmFsYW5jZXMgYW5kIGtlZXBzIHRoZSB1cGxvYWRlZCBib29rcy4KLSBgRGVjaW1hbHMuYCBDbGFzc2ljIGFzc2V0cyBjYXJyeSBzZXZlbi4gQSBjb250cmFjdCB0b2tlbidzIGFyZSByZWFkIGZyb20gdGhlIGNvbnRyYWN0OyBvbmUKICB0aGF0IGRvZXMgbm90IHN0YXRlIHRoZW0gaGFzIHRvIGJlIHRvbGQgd2hlbiBpdCBpcyB3YXRjaGVkLgotIGBFbWFpbC5gIE5vbmUgaXMgc2VudC4gQWRkcmVzc2VzIGFyZSBub3QgdmVyaWZpZWQgYXQgc2lnbi11cCwgaW52aXRhdGlvbnMgdHJhdmVsIGJ5IGxpbmssIGFuZAogIHBhc3N3b3JkIHJlc2V0cyBnbyB0aHJvdWdoIHRoZSBvcGVyYXRvci4KLSBgU2NhbGUuYCBPbmUgcHJvY2Vzcywgb25lIFNRTGl0ZSBmaWxlIHBlciB3b3Jrc3BhY2UsIGhvbGRpbmdzIHJlcGxheWVkIGZyb20gZXZlbnRzIGluCiAgbWVtb3J5LiBJdCBoYXMgcnVuIGFuIGFzc2V0IHdpdGggYSB0aG91c2FuZCBob2xkZXJzIGFuZCBzZXZlbiB0aG91c2FuZCBldmVudHMgY29tZm9ydGFibHk7IGl0CiAgaGFzIG5vdCBiZWVuIGxvYWQtdGVzdGVkIGJleW9uZCB0aGF0LgotIGBTcGxpdHMuYCBGcmFjdGlvbnMgb2YgdGhlIHNtYWxsZXN0IHVuaXQgYXJlIGRyb3BwZWQ7IGNhc2ggaW4gbGlldSBpcyBub3QgbW9kZWxsZWQuCgojIyBQcmFjdGljZSBhc3NldCBvbiB0ZXN0bmV0CgpgcG5wbSBkZW1vOnRlc3RuZXRgIGlzc3VlcyBhIHJlZ3VsYXRlZCBmdW5kIHNoYXJlIG9uIHRlc3RuZXQgKGF1dGggcmVxdWlyZWQsIHJldm9jYWJsZSwgY2xhd2JhY2sKZW5hYmxlZCkgYW5kIHJ1bnMgc3Vic2NyaXB0aW9ucywgYSBjYXNoIGRpdmlkZW5kLCBhIHRyYW5zZmVyLCBhIGZyZWV6ZSwgYSBjbGF3YmFjaywgYSByZWRlbXB0aW9uCmFuZCBhIDI6MSBzcGxpdCBhZ2FpbnN0IGl0LiBJdCB0aGVuIHdyaXRlcyBhIHJlZ2lzdGVyLCBqb3VybmFsIGFuZCBpbnN0cnVjdGlvbiBmaWxlIHRoYXQgZGlzYWdyZWUKd2l0aCB0aGUgY2hhaW4gaW4ga25vd24gd2F5cyB0byBgZGF0YS9kZW1vL2AsIGFuZCBwcmludHMgd2hhdCB0byB3YXRjaC4gVGhlIHNjcmlwdCBuZXZlciBvcGVucyBhCkNvbmNvcmQgZGF0YWJhc2U6IHlvdSB3YXRjaCB0aGUgYXNzZXQgd2l0aCB0aGUgbmV0d29yayBzZXQgdG8gVGVzdG5ldCBhbmQgdXBsb2FkIHRoZSBmaWxlcyBieQpoYW5kLCB0aGUgd2F5IGEgdXNlciB3b3VsZC4gVGhlIGJvb2tzIGl0IHdyaXRlcyBhcmUgaW52ZW50ZWQsIGFuZCBleGlzdCBmb3IgZGV2ZWxvcG1lbnQgb25seS4KCiMjIFByaW9yLWFydCBjaGVjayAoMjAyNi0xMC0wNikKClRoZSBicmllZidzIGZpcnN0IGtpbGwgY3JpdGVyaW9uIGlzIHRoYXQgc29tZW9uZSBhbHJlYWR5IHNoaXBzIHRoaXMgZm9yIFN0ZWxsYXIuIEEgZGVzayBjaGVjawpmb3VuZCBubyB2ZW5kb3Igc2VsbGluZyByZWdpc3Rlci1hZ2FpbnN0LWNoYWluIG9yIGNvcnBvcmF0ZS1hY3Rpb24gcmVjb25jaWxpYXRpb24gZm9yIFN0ZWxsYXIuCkl0IHdhcyBhIHdlYiBzZWFyY2gsIHdpdGggc2V2ZXJhbCBzb3VyY2VzIHJlYWQgb25seSBhcyBzdW1tYXJpZXMsIHNvIHRyZWF0IGl0IGFzIGEgZmlyc3QgcGFzcy4KCi0gU3RlbGxhckV4cGVydCwgTWVyY3VyeS9aZXBoeXIgYW5kIFNERiBIdWJibGUgcHJvdmlkZSBkYXRhIGFuZCBpbmRleGluZywgbm90IHJlY29uY2lsaWF0aW9uLgotIFNlY3VyaXRpemUgYW5kIFZlcnRhbG8gcmVjb25jaWxlIGluc2lkZSB0aGVpciBvd24gdHJhbnNmZXItYWdlbnQgc3RhY2tzOyBubyBTdGVsbGFyIHByb2R1Y3QgZm91bmQuCi0gQWxsaXVtIGlzIHRoZSBjbG9zZXN0OiBhIFN0ZWxsYXIgUldBIHRyYW5zZmVycyB0YWJsZSBhbmQgY29udGVudCBhaW1lZCBhdCB0cmFuc2ZlciBhZ2VudHMsIGJ1dAogIG5vIGJhbGFuY2VzLCBjb250cm9sIGV2ZW50cywgcmVnaXN0ZXIgY29tcGFyaXNvbiBvciBjb3Jwb3JhdGUgYWN0aW9ucy4KLSBGcmFua2xpbiBUZW1wbGV0b24ncyB0cmFuc2ZlciBhZ2VudCByZXBvcnRlZGx5IHJlY29uY2lsZXMgQkVOUEkgZGFpbHkgd2l0aCBpbi1ob3VzZSB0b29saW5nLAogIHdoaWNoIGNvbmZpcm1zIHRoZSB3b3JrZmxvdyBleGlzdHMuCi0gRFRDQydzIHJlbGVhc2UgcHJvbWlzZXMgImNvcnBvcmF0ZSBhY3Rpb25zIGFuZCByZXBvcnRpbmciIGZvciBpdHMgSDEgMjAyNyBTdGVsbGFyIGNvbm5lY3Rpb24uCiAgSWYgdGhhdCBpbmNsdWRlcyBwYXJ0aWNpcGFudC1mYWNpbmcgcmVjb25jaWxpYXRpb24sIHRoZSBjcml0ZXJpb24gdHJpZ2dlcnMgZm9yIERUQy1lbGlnaWJsZSBhc3NldHMuCgojIyBXaHkgbm93CgotIERUQ0MncyB0b2tlbml6YXRpb24gc2VydmljZSBwbGFucyB0byBjb25uZWN0IHRvIFN0ZWxsYXIgaW4gKipIMSAyMDI3KiouIEZpcnN0IGFzc2V0czogUnVzc2VsbAogIDEwMDAgc3RvY2tzLCBtYWpvciBpbmRleCBFRFRzLCBVUyBUcmVhc3VyaWVzIChEVENDIHByZXNzIHJlbGVhc2UsIDIwMjYtMDUtMjcpLgotIFN0ZWxsYXIgYWxyZWFkeSBob2xkcyBhYm91dCAqKiQ0QioqIG9mIHRva2VuaXplZCBSV0FzIChTREYgRHVuZSBkYXNoYm9hcmQsIDIwMjYtMDgtMjkpLiBTcGlrbywKICBGcmFua2xpbiBUZW1wbGV0b24gKEJFTkpJKSwgT25kbyBhbmQgV2lzZG9tVHJlZSBhbGwga2VlcCBvZmZpY2lhbCByZWdpc3RlcnMgYWxvbmdzaWRlIHRoZSBjaGFpbi4KLSBDQVAtNjcgKEZpbmFsLCBQcm90b2NvbCAyMykgbWFrZXMgY2xhc3NpYyBTdGVsbGFyIG9wZXJhdGlvbnMgZW1pdCBgdHJhbnNmZXJgLCBgbWludGAsIGBidXJuYCwKICBgY2xhd2JhY2tgIGFuZCBgc2V0X2F1dGhvcml6ZWRgIGV2ZW50cyBpbiB0aGUgc2FtZSBmb3JtYXQgYXMgU29yb2Jhbi4gRm9yIHRoZSBmaXJzdCB0aW1lLAogIHJlZ3VsYXRlZC1hc3NldCBhY3Rpdml0eSBjYW4gYmUgaW5kZXhlZCB3aXRob3V0IGRlY29kaW5nIGV2ZXJ5IG9wZXJhdGlvbiB0eXBlIGJ5IGhhbmQuCgojIyBXaGF0IGl0IGRvZXMKCnwgTW9kdWxlIHwgSm9iIHwKfC0tLXwtLS18CnwgSW5kZXhlciB8IFJlYWQgQ0FQLTY3IGV2ZW50cyBmb3IgYSB3YXRjaGVkIHNldCBvZiByZWd1bGF0ZWQgYXNzZXRzIChjbGFzc2ljIGFuZCBTRVAtNDEpIHwKfCBSZWNvbmNpbGVyIHwgTWF0Y2ggb24tY2hhaW4gaG9sZGluZ3MgYW5kIG1vdmVtZW50cyBhZ2FpbnN0IGVhY2ggcmVnaXN0ZXIgZXhwb3J0IGFzIGl0IGlzIGltcG9ydGVkLCBhbmQgb24gZGVtYW5kOyBmbGFnIGJyZWFrcyB8CnwgQ29ycG9yYXRlIGFjdGlvbnMgfCBSZWNvcmQtZGF0ZSBzbmFwc2hvdHM7IGRpdmlkZW5kLCBzcGxpdCBhbmQgcmVkZW1wdGlvbiByZWNvbmNpbGlhdGlvbiB8CnwgQ29udHJvbHMgbG9nIHwgRXZlcnkgZnJlZXplLCBhdXRob3Jpc2F0aW9uIGNoYW5nZSBhbmQgY2xhd2JhY2ssIHRpZWQgdG8gdGhlIGluc3RydWN0aW9uIHRoYXQgY2F1c2VkIGl0IHwKfCBBdWRpdCBleHBvcnQgfCBSZWd1bGF0b3ItIGFuZCBhdWRpdG9yLXJlYWR5IHJlcG9ydHMgfAoKUmVhZC1vbmx5LiBDb25jb3JkIG5ldmVyIGhvbGRzIGtleXMgb3IgbW92ZXMgbW9uZXkuCgojIyBXaG8gYnV5cyBpdAoKVHJhbnNmZXIgYWdlbnRzLCBjdXN0b2RpYW5zIGFuZCBmdW5kIGFkbWluaXN0cmF0b3JzIHNlcnZpbmcgaXNzdWVycyBvbiBTdGVsbGFyLiBQcmljZWQgYXMKc29mdHdhcmU6IHBlciBhc3NldCBhbmQgcGVyIHNlYXQuCgojIyBDb250cmlidXRpbmcKCkNvbnRyaWJ1dGlvbnMgYXJlIHdlbGNvbWUuIFN0YXJ0IHdpdGggW2BDT05UUklCVVRJTkcubWRgXSguL0NPTlRSSUJVVElORy5tZCkgZm9yIHNldHVwIGFuZCB0aGUKcnVsZXMgdGhhdCBtYXR0ZXIsIGFuZCBbYGRvY3MvQVJDSElURUNUVVJFLm1kYF0oL2RvY3MvQVJDSElURUNUVVJFLm1kKSBmb3IgaG93IHRoZSBjb2RlIGZpdHMKYW5kIFtgZG9jcy9DT05UUk9MUy5tZGBdKC9kb2NzL0NPTlRST0xTLm1kKSBmb3IgdGhlIGNvbnRyb2xzIGxvZyBydWxlcyBjb21wbGlhbmNlIG9mZmljZXJzIG5lZWQuCgpSZXBvcnQgc2VjdXJpdHkgcHJvYmxlbXMgcHJpdmF0ZWx5LCBhcyBkZXNjcmliZWQgaW4gW2BTRUNVUklUWS5tZGBdKC4vU0VDVVJJVFkubWQpLgpFdmVyeW9uZSB0YWtpbmcgcGFydCBpcyBleHBlY3RlZCB0byBmb2xsb3cgdGhlIFtDb2RlIG9mIENvbmR1Y3RdKC4vQ09ERV9PRl9DT05EVUNULm1kKS4KCiMjIExpY2Vuc2UKCltNSVRdKC4vTElDRU5TRSkuCgojIyBSZWxhdGlvbnNoaXAgdG8gb3RoZXIgcHJvamVjdHMKCkNvbmNvcgo=
+# Concord
+
+Reconciliation between tokenized securities on Stellar and the official books kept by transfer
+agents, custodians and fund administrators.
+
+When a security lives both on-chain and in a register, someone has to prove the two agree, every
+day. Dividends, splits, freezes and clawbacks have to land on both sides. Today that work is
+manual. Concord does it from ledger events.
+
+**Status:** working, and ready to put in front of people. The indexer, reconciler,
+corporate-actions engine, controls log and audit export run end to end behind sign-in, with a
+private workspace per organisation. It has been exercised against Stellar mainnet: watching
+Franklin Templeton's BENJI, Concord's unit total matched Horizon's own figure to the last decimal,
+and a register built from the chain's holdings reconciled clean across all 1,005 positions. No
+customer has used it. The product brief and kill criteria are in [`BRIEF.md`](./BRIEF.md).
+
+## Run it
+
+Needs Node 24+ and pnpm 10.22 (pinned in `package.json`). Nothing else: storage is SQLite through `node:sqlite`.
+
+```sh
+pnpm install
+pnpm build
+pnpm start            # API and dashboard on http://127.0.0.1:4400
+```
+
+Open the address, create a workspace, and watch an asset. Mainnet and testnet are both served;
+the switch is at the top left. A new workspace is empty. Concord ships no sample data: the chain
+side comes from the ledger, and the register side is the file you upload. The
+[dashboard user guide](./docs/user-guide.md) walks through each tab.
+
+`pnpm test` runs the unit and service tests. `pnpm dev` runs the API and the dashboard with reload.
+
+Configuration is by environment variable, or a `.env` file beside `package.json`; see
+[`.env.example`](./.env.example), and [`docs/CONFIGURATION.md`](./docs/CONFIGURATION.md) for every
+variable's default, accepted values and validation. With nothing set, mainnet uses free public
+RPC endpoints, which suit light use. Point `CONCORD_MAINNET_RPC_URLS` at a provider for anything
+more.
+
+Where the databases live, and what is safe to delete, is in
+[`docs/data-directory.md`](./docs/data-directory.md).
+
+## Accounts and workspaces
+
+- A **workspace** holds the assets an organisation watches and the books it uploads. Each one is
+  a SQLite file of its own under `data/orgs/`, so nothing a workspace stores can be reached from
+  another. Accounts, memberships and sessions live in `data/control.db`.
+- People sign in with **email and password**, or with **Google** when
+  `CONCORD_GOOGLE_CLIENT_ID` and `CONCORD_GOOGLE_CLIENT_SECRET` are set. Concord sends no email:
+  an owner creates an invitation link and passes it on, and a forgotten password is reset with a
+  link from `pnpm concord reset-link EMAIL`. See the [Google sign-in setup guide](./docs/google-signin.md)
+  to configure Google or understand how it works with existing accounts, invitations and sign-up codes.
+- **Owners** invite and remove people, stop watching assets and can delete the workspace.
+  **Members** do everything else. Whoever signs off a break is recorded from their session.
+- `CONCORD_SIGNUP=open` lets anyone create a workspace. `CONCORD_SIGNUP=code` requires a code
+  from `pnpm concord signup-code`.
+  The [operator guide](./docs/operator-guide.md) covers codes, reset links and deleting a
+  workspace.
+
+## Command line
+
+Everything on the dashboard except sign-off and team management is also on the command line. It
+works on the same data directory as the server, and may run while the server does.
+
+```sh
+pnpm concord orgs
+export CONCORD_ORG="Harbourline Transfer"     # or pass --org to each command
+pnpm concord watch FUND:GISSUER... --name "Example Fund" --ignore GTREASURY...
+pnpm concord register FUND ./register.csv --as-of 2026-10-06T21:00:00Z
+pnpm concord journal FUND ./journal.csv
+pnpm concord instructions FUND ./instructions.csv
+pnpm concord action FUND dividend --record 2026-10-01T21:00:00Z --rate 0.05 --pay-asset USDC --payer GAGENT...
+pnpm concord action FUND split --record 2026-10-01T21:00:00Z --ratio 2:1
+pnpm concord controls FUND
+pnpm concord export FUND --out audit.json
+pnpm concord backup ./backup-2026-10-08
+pnpm concord --help
+```
+
+Every command, option and exit code is in the [command-line reference](./docs/cli.md).
+
+The audit pack format (JSON sections, CSV columns, period rules and file names) is documented in [`docs/audit-pack.md`](./docs/audit-pack.md).
+
+## Deploying
+
+The [`Dockerfile`](./Dockerfile) builds one image that serves the API and the dashboard. Give it
+a volume at `/data`, put TLS in front (see [`docs/deploy/nginx.md`](./docs/deploy/nginx.md) for an
+nginx and Certbot recipe), and set `CONCORD_PUBLIC_URL` to the https address people open.
+
+```sh
+docker build -t concord .
+docker run -p 4400:4400 -v concord-data:/data -e CONCORD_PUBLIC_URL=https://concord.example.com concord
+```
+
+Concord is a single process with a background indexer and SQLite files, so it needs one
+always-on instance with a local disk. It does not fit serverless hosts.
+
+[`render.yaml`](./render.yaml) deploys it to Render's **free** plan for a preview. That plan has
+no persistent disk: every account, upload and sign-off is erased when the service restarts or
+spins down after fifteen idle minutes. `CONCORD_EPHEMERAL=1` makes the dashboard say so on every
+page. For anything people should come back to, use a paid instance with a disk at `/data` (or
+Fly.io, or a VPS with [nginx](./docs/deploy/nginx.md)) and remove that variable.
+
+Before upgrading, read [`docs/versioning.md`](./docs/versioning.md): what a version number
+promises, what counts as breaking for the input files, the audit pack and the database, and why a
+downgrade means restoring a backup.
+
+Upgrading an existing instance, including how migrations run, taking a backup and rolling back, is
+covered in [`docs/upgrading.md`](./docs/upgrading.md).
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| `packages/core` | The accounting, with no I/O: holdings replay, position and movement reconciliation, entitlements, controls matching |
+| `services/api` | RPC indexer, SQLite stores, accounts and workspaces, HTTP API, CLI |
+| `apps/web` | Dashboard: sign-in, breaks and sign-off, holdings, corporate actions, controls log, audit export, team |
+
+The tables in `control.db` and in each workspace database are described in
+[`docs/schema.md`](./docs/schema.md).
+
+## Input files
+
+All CSV with a header row. Amounts are decimals in whole units; more precision than the asset
+carries is rejected, not rounded. Rows that cannot be read are listed with their line number and
+the reason, and the rest of the file is loaded. Each import form offers a blank template.
+
+| File | Columns |
+|---|---|
+| Register | `holder_id`, `units`, and optionally `holder_name`, `account`, `status` (`active` or `frozen`). Several holders may share one `account` (omnibus). |
+| Journal | `ref`, `date`, `type` (`issue`, `transfer`, `redeem`, `clawback`), `units`, and optionally `from_account`, `to_account`, `tx_hash` |
+| Instructions | `ref`, `type` (`authorize`, `freeze`, `unfreeze`, `clawback`), `account`, `issued_at`, and optionally `units` (required for a clawback), `approved_by`, `reason` |
+
+## What it flags
+
+- **Positions:** quantity mismatch, holder on chain but not on the register, holder on the
+  register but not on chain, register holder with no address, frozen/active disagreement, total
+  supply mismatch.
+- **Movements** (when a journal is loaded): on-chain movement missing from the journal, journal
+  entry with no ledger event, entry whose cited transaction moved a different amount.
+- **Corporate actions:** per holder, entitlement at the record time against what the ledger
+  showed in the execution window: missing, short, excess, or paid to someone not entitled. An
+  action recorded ahead of its record time is reconciled by itself once the chain passes it.
+- **Controls:** a freeze, authorisation or clawback with no instruction issued in the 72 hours
+  before it, and an instruction that was never executed.
+
+A break can be acknowledged or resolved with a note. The sign-off holds only while the figures it
+was written against are unchanged; if the break moves, it reopens. See
+[`docs/breaks.md`](./docs/breaks.md) for the complete break-type glossary, root causes, investigation
+steps, and sign-off lifecycle.
+
+A reconciliation runs when a register is imported and whenever someone re-runs it. Nothing
+reconciles on a timer: a new day's comparison needs that day's register.
+
+## Limits
+
+- **History.** Stellar RPC keeps about seven days of events. A classic asset is therefore
+  watched from opening balances: every trustline's balance from Horizon, then events from that
+  ledger on. Horizon does not list balances held by liquidity pools, claimable balances or
+  contracts, so opening balances understate supply by whatever those hold. Holdings before the
+  opening balances cannot be queried.
+- **Contract tokens.** A SEP-41 token that is not the contract of a classic asset has no opening
+  balances to read, so its holdings count only movements from the oldest ledger the RPC keeps.
+  The dashboard says so on every page of such an asset. Tokens that do not emit the standard
+  `set_authorized` and `clawback` events will show an empty controls log.
+- **Gaps.** If the indexer is down for longer than RPC retention, the events in between are
+  lost. Concord detects this, stops indexing the asset and says why; **Rebuild history** in the
+  asset's settings starts it again from fresh opening balances and keeps the uploaded books.
+- **Decimals.** Classic assets carry seven. A contract token's are read from the contract; one
+  that does not state them has to be told when it is watched.
+- **Email.** None is sent. Addresses are not verified at sign-up, invitations travel by link, and
+  password resets go through the operator. See [`docs/adr/0003-no-email.md`](./docs/adr/0003-no-email.md) for the
+  architectural decision and threat model.
+- **Scale.** One process, one SQLite file per workspace, holdings replayed from events in
+  memory. It has run an asset with a thousand holders and seven thousand events comfortably; it
+  has not been load-tested beyond that.
+- **Splits.** Fractions of the smallest unit are dropped; cash in lieu is not modelled.
+
+## Practice asset on testnet
+
+`pnpm demo:testnet` issues a regulated fund share on testnet (auth required, revocable, clawback
+enabled) and runs subscriptions, a cash dividend, a transfer, a freeze, a clawback, a redemption
+and a 2:1 split against it. It then writes a register, journal and instruction file that disagree
+with the chain in known ways to `data/demo/`, and prints what to watch. The script never opens a
+Concord database: you watch the asset with the network set to Testnet and upload the files by
+hand, the way a user would. The books it writes are invented, and exist for development only.
+[`docs/demo-testnet.md`](./docs/demo-testnet.md) walks through the whole flow: what the script
+prints, what to watch for on the chain, how to load the books, and why each break appears.
+
+## Prior-art check
+
+The brief's first kill criterion is that someone already ships this for Stellar. The check, a dated
+source for every finding, the kill criteria and the re-check schedule are kept in
+[`docs/prior-art.md`](./docs/prior-art.md).
+
+## Why now
+
+- DTCC's tokenization service plans to connect to Stellar in **H1 2027**. First assets: Russell
+  1000 stocks, major index ETFs, US Treasuries (DTCC press release, 2026-05-27).
+- Stellar already holds about **$4B** of tokenized RWAs (SDF Dune dashboard, 2026-08-29). Spiko,
+  Franklin Templeton (BENJI), Ondo and WisdomTree all keep official registers alongside the chain.
+- CAP-67 (Final, Protocol 23) makes classic Stellar operations emit `transfer`, `mint`, `burn`,
+  `clawback` and `set_authorized` events in the same format as Soroban. For the first time,
+  regulated-asset activity can be indexed without decoding every operation type by hand.
+
+## What it does
+
+| Module | Job |
+|---|---|
+| Indexer | Read CAP-67 events for a watched set of regulated assets (classic and SEP-41) |
+| Reconciler | Match on-chain holdings and movements against each register export as it is imported, and on demand; flag breaks |
+| Corporate actions | Record-date snapshots; dividend, split and redemption reconciliation |
+| Controls log | Every freeze, authorisation change and clawback, tied to the instruction that caused it |
+| Audit export | Regulator- and auditor-ready reports |
+
+Read-only. Concord never holds keys or moves money. The reasoning, the one exception (the testnet
+practice script), and the rules for proposals that would add signing are in
+[`docs/adr/0004-read-only.md`](./docs/adr/0004-read-only.md).
+
+## Who buys it
+
+Transfer agents, custodians and fund administrators serving issuers on Stellar. Priced as
+software: per asset and per seat.
+
+## Contributing
+
+Contributions are welcome. Start with [`CONTRIBUTING.md`](./CONTRIBUTING.md) for setup and the
+rules that matter, and [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) for how the code fits
+together. To read the ledger from a new source, see
+[`docs/contributing/chain-source.md`](./docs/contributing/chain-source.md), and see [`docs/breaks.md`](./docs/breaks.md) for the break-type glossary. Report security problems
+privately, as described in [`SECURITY.md`](./SECURITY.md).
+Everyone taking part is expected to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## License
+
+[MIT](./LICENSE).
+
+## Relationship to other projects
+
+Concord is a stand-alone company. It was split from the Ballast idea set on 2026-09-16 because
+it shares no buyer, balance sheet or regulatory load with Ballast. See
+`../ballast/README.md` for the reasoning.
