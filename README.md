@@ -147,7 +147,8 @@ the reason, and the rest of the file is loaded. Each import form offers a blank 
 A break can be acknowledged or resolved with a note. The sign-off holds only while the figures it
 was written against are unchanged; if the break moves, it reopens. See
 [`docs/breaks.md`](./docs/breaks.md) for the complete break-type glossary, root causes, investigation
-steps, and sign-off lifecycle.
+steps, and sign-off lifecycle. The controls log, the 72-hour instruction window and the matching
+rules are explained in [`docs/controls.md`](./docs/controls.md).
 
 A reconciliation runs when a register is imported and whenever someone re-runs it. Nothing
 reconciles on a timer: a new day's comparison needs that day's register.
