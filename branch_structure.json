@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-946-controls-log-guide-the-72-hour-instruction",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-946-controls-log-guide-the-72-hour-instruction": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-946-controls-log-guide-the-72-hour-instruction",
+    "origin"
+  ]
+}
